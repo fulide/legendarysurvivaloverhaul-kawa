@@ -34,12 +34,13 @@ E9AA69BDC19C111941AAD9F8ECB28E9B3DC632D6E44A71F3D266AF2F5E812585
 ## 仓库结构
 
 ```
-dist/        编译好的模组 jar
-patches/     相对原 jar 的改动源码 / 资源
-  java/       重写或修改的 Java 源码
-  resources/  新增或修改的资源文件
-tools/       ASM 日志清理工具、字节码对比、校验脚本
-docs/        修复说明与对比图
+dist/            编译好的模组 jar
+patches/         相对原 jar 的改动源码 / 资源
+  java/          重写或修改的 Java 源码
+  resources/     新增或修改的资源文件
+src-decompiled/  2.4.2 (fixed3) 的完整 JD-Core 反编译源码（527 个 .java，仅供对照，不是官方源码）
+tools/           ASM 日志清理工具、字节码对比、校验脚本
+docs/            修复说明与对比图
 ```
 
 ## 原理摘要
